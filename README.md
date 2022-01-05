@@ -5,6 +5,8 @@ Because Passphrases are more secure and easier to remember
 ## Examples
 You can always use the program with no input arguments to see the usage information..
 
+NOTE: Don't use any of these examples as your password!
+
 `python passgen.py 4 -p` or `.\passgen.exe 4 -p`
 
 BeheeyemScytherOmanyteElgyem
