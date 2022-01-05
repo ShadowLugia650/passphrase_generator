@@ -64,3 +64,39 @@ python passgen.py <len> [flags] OR .\passgen.exe <len> [flags]
   * -g X, where X is a pokemon generation number: only use pokemon from generation X (not necessarily less secure...)
   
 Note: you can make a file with some words and use both -f and -p to include the both pokemon db and the words in your file.
+
+  
+## Don't trust my sketchy exe?
+Compile the python yourself: 
+
+### Requisites
+Python (3.9 recommended)
+Git (alternatively you can download passgen.py directly from here)
+
+### Setup:
+```
+git clone https://github.com/ShadowLugia650/passphrase_generator
+pip install pyinstaller
+pip install pokebase
+```
+
+### Build:
+```
+cd passphrase_generator  # if you're using git
+pyinstaller passgen.py --onefile --hidden-import sys --hidden-import os --hidden-import pokebase
+```
+The exe file should be in ./dist
+  
+### Check Checksum:
+  
+Windows:
+```
+certutil -hashfile .\dist\passgen.exe SHA256
+```
+  
+Unix:
+```
+sha256sum ./dist/passgen.exe
+```
+  
+verify the generated sum with the latest posted one. If it doesn't match, you decide who you want to trust.
