@@ -43,7 +43,7 @@ python passgen.py 4 -c -p -n 256 -u
 
 
 ## Usage
-python passgen.py <len> [flags] OR passgen.exe <len> [flags]
+python passgen.py <len> [flags] OR .\passgen.exe <len> [flags]
   
 * len: length of passphrase to generate
   
