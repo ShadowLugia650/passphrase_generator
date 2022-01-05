@@ -1,4 +1,4 @@
-# passphrase_generator
+# [passphrase_generator](https://github.com/ShadowLugia650/passphrase_generator/releases)
 Because Passphrases are more secure and easier to remember
 
 
