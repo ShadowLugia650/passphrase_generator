@@ -51,7 +51,8 @@ Drowz]eeBasti!odonConkeld$urrDub?wool
 Note: you can make a file with some words and use both -f and -p to include the both pokemon db and the words in your file.
 
 ## Think my code looks weird and want to learn more or read it?
-Check out [this page](https://github.com/ShadowLugia650/olop)
+Check out [this page](https://github.com/ShadowLugia650/olop)!
+  
 You can use `oldec_cmd.py` to decode `passgen.py`:
 ```
 python oldec_cmd.py passgen.py -r -b
