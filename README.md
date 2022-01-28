@@ -69,13 +69,13 @@ Compile the python yourself (or, you know, just run the python with python...):
 ```
 git clone https://github.com/ShadowLugia650/passphrase_generator
 pip install pyinstaller
-pip install pokebase
+pip install pokepy
 ```
 
 ### Build:
 ```
 cd passphrase_generator  # if you're using git
-pyinstaller passgen.py --onefile --hidden-import sys --hidden-import os --hidden-import pokebase
+pyinstaller passgen.py --onefile --hidden-import sys --hidden-import os --hidden-import pokepy
 ```
 The executable file should be in ./dist
   
